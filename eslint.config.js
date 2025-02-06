@@ -33,6 +33,9 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      // 추가본
+      "no-unused-vars": "off", // 선언 후 사용 안하는거 경고문 끄기
+      "react/prop-types":"off"  // 실습시에만 설정하는게 좋음
     },
   },
 ]
